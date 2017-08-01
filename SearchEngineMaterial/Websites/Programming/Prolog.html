@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Programming in Prolog Language</title>
+</head>
+<body>
+  <div>
+    <h1>
+      <center>
+
+
+        Prolog Programming<br>
+      </center>
+    </h1>
+  </div>
+  <div>
+    <h4>
+      Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics.[1][2][3]
+
+Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is declarative: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.[4]
+
+The language was first conceived by a group around Alain Colmerauer in Marseille, France, in the early 1970s and the first Prolog system was developed in 1972 by Colmerauer with Philippe Roussel.[5][6]
+
+Prolog was one of the first logic programming languages,[7] and remains the most popular among such languages today, with several free and commercial implementations available. The language has been used for theorem proving,[8] expert systems,[9] type inference systems,[10] and automated planning,[11] as well as its original intended field of use, natural language processing.[12][13] Modern Prolog environments support creating graphical user interfaces, as well as administrative and networked applications.
+
+Prolog is well-suited for specific tasks that benefit from rule-based logical queries such as searching databases, voice control systems, and filling templates.
+    </h4>
+  </div>
+  <div>
+    <h2>
+      Design
+    </h2>
+    <h5>
+      C is an imperative procedural language. It was designed to be compiled using a relatively straightforward compiler, to provide low-level access to memory, to provide language constructs that map efficiently to machine instructions, and to require minimal run-time support. Therefore, C was useful for many applications that had formerly been coded in assembly language, for example in system programming.
+
+      Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant and portably written C program can be compiled for a very wide variety of computer platforms and operating systems with few changes to its source code. The language has become available on a very wide range of platforms, from embedded microcontrollers to supercomputers.
+    </h5>
+  </div>
+  <div>
+    <h2>
+      Design
+    </h2>
+    <h5>
+      In Prolog, program logic is expressed in terms of relations, and a computation is initiated by running a query over these relations. Relations and queries are constructed using Prolog's single data type, the term.[4] Relations are defined by clauses. Given a query, the Prolog engine attempts to find a resolution refutation of the negated query. If the negated query can be refuted, i.e., an instantiation for all free variables is found that makes the union of clauses and the singleton set consisting of the negated query false, it follows that the original query, with the found instantiation applied, is a logical consequence of the program. This makes Prolog (and other logic programming languages) particularly useful for database, symbolic mathematics, and language parsing applications. Because Prolog allows impure predicates, checking the truth value of certain special predicates may have some deliberate side effect, such as printing a value to the screen. Because of this, the programmer is permitted to use some amount of conventional imperative programming when the logical paradigm is inconvenient. It has a purely logical subset, called "pure Prolog", as well as a number of extralogical features.
+    </h5>
+  </div>
+  <div>
+    <h2>
+      Overview
+    </h2>
+    <h5>
+      Prolog's single data type is the term. Terms are either atoms, numbers, variables or compound terms.
+
+An atom is a general-purpose name with no inherent meaning. Examples of atoms include x, red, 'Taco', and 'some atom'.
+Numbers can be floats or integers.
+Variables are denoted by a string consisting of letters, numbers and underscore characters, and beginning with an upper-case letter or underscore. Variables closely resemble variables in logic in that they are placeholders for arbitrary terms.
+A compound term is composed of an atom called a "functor" and a number of "arguments", which are again terms. Compound terms are ordinarily written as a functor followed by a comma-separated list of argument terms, which is contained in parentheses. The number of arguments is called the term's arity. An atom can be regarded as a compound term with arity zero. Examples of compound terms are truck_year('Mazda', 1986) and 'Person_Friends'(zelda,[tom,jim]).
+Special cases of compound terms:
+
+A List is an ordered collection of terms. It is denoted by square brackets with the terms separated by commas or in the case of the empty list, []. For example, [1,2,3] or [red,green,blue].
+Strings: A sequence of characters surrounded by quotes is equivalent to a list of (numeric) character codes, generally in the local character encoding, or Unicode if the system supports Unicode. For example, "to be, or not to be".
+    </h5>
+  </div>
+
+  
+</body>
+</html>
